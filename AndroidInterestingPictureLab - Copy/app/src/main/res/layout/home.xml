@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Welcome to CookSmart!"
+        android:textSize="30dp"
+        android:textColor="@color/colorText"
+        android:paddingTop="20dp"
+        android:id="@+id/textView" />
+
+   <ImageView
+        android:src="@drawable/foodbg"
+        android:id="@+id/interestingPicture1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:padding="10dp"
+
+        />
+    <Button
+        android:text="Get Recipe!"
+        android:id="@+id/submit"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:paddingBottom="0dp"
+        android:padding="0dp"
+        />
+
+
+</LinearLayout>
